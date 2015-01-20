@@ -23,3 +23,6 @@
 
 - name: Install pip launcher
   copy: src=runner dest=/home/core/bin/pip mode=0755
+
+- name: Install doker-py
+  pip: name=docker-py
